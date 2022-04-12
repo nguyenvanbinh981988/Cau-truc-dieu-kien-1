@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let adminName;
+    adminName= prompt("Enter Admin");
+
+    if(adminName == "Admin") {
+        let passWord;
+        passWord= prompt("Enter password");
+
+        if(passWord == "TheMaster"){
+            alert("Welcome");
+        } else if(passWord=="null") {
+            alert(" Cancel");
+        } else {
+            alert("i don't know you");
+        }
+    } else if(adminName=="nul"){
+        alert("Cancel");
+    } else {
+        alert("i don't know you");
+    }
+</script>
+</body>
+</html>
